@@ -1,0 +1,93 @@
+# ============================================
+# R PROJECT .GITIGNORE TEMPLATE
+# ============================================
+
+# R specific files
+.Rproj.user/
+.Rhistory
+.RData
+.Ruserdata
+.Renviron
+.Rapp.history
+.Rproj.user
+*.Rproj
+*.Rproj.user
+
+# RStudio files
+.Rproj.user/
+.Rhistory
+.RData
+.Ruserdata
+
+# Compiled files
+*.o
+*.so
+*.dll
+*.RData
+
+# Package files
+*.Rcheck/
+*.tar.gz
+*.pdf
+*.html
+
+# renv package manager
+renv/.Rprofile
+renv/library/
+renv/staging/
+renv/local/
+renv/sandbox/
+
+# Data files (keep them out of git!)
+*.csv
+*.xlsx
+*.xls
+*.sas7bdat
+*.dta
+*.rds
+*.RDS
+*.RData
+*.rda
+*.feather
+*.parquet
+data/
+data-raw/
+*/data/
+
+# Outputs and reports
+output/
+figures/
+plots/
+*.png
+*.jpg
+*.jpeg
+*.tiff
+*.pdf
+*.html
+*.docx
+
+# IDE and system files
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+.idea/
+.vscode/
+*.iml
+
+# Logs and temporary files
+*.log
+*.tmp
+*.temp
+*.cache
+*/cache/
+
+# Secrets and credentials
+*.key
+*.pem
+*.crt
+*.p12
+.secrets/
+.env
+.httr-oauth

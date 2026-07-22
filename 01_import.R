@@ -16,10 +16,8 @@ library(hei)
 # directories
 #------------------------------------------------------
 
-root <- "C:/Users/Benyu/Documents/nhanes_project"
-
-raw_dir   <- file.path(root,"data_raw")
-clean_dir <- file.path(root,"data_clean")
+raw_dir   <- file.path("C:/Users/Benyu/Documents/nhanes_project/data_raw")
+clean_dir <- file.path("C:/Users/Benyu/Documents/MEGA/Physical_Activity_and_Aging/data_clean")
 
 # ==============================================================================
 # 2. LOAD RAW XPT FILES
